@@ -3,6 +3,7 @@ import connectDB from "./db/index.js"
 import { app } from "./app.js"
 
 
+
 //configuring the path (where to pick the environment variables)
 dotenv.config({
     path: './.env'
